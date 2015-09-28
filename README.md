@@ -24,7 +24,7 @@ iOS demo app that finds the upcoming public technology meetups near the user's c
 4. Build and run the app.
 
 ## API methods implemented
-1. [/topics] (http://www.meetup.com/meetup_api/docs/topics/) to get all the "Tech" related topics. The urlkeys in the response are being sent as a parameter when requesting the meetups.
+1. [/topics] (http://www.meetup.com/meetup_api/docs/topics/) to get all the "Tech" related topics. The `urlkeys` in the response are being sent as a parameter when requesting the meetups.
 2. [/2/open_events] (http://www.meetup.com/meetup_api/docs/2/open_events/) to get all the upcoming public events hosted by Meetup groups.
 3. [/2/groups] (http://www.meetup.com/meetup_api/docs/2/groups/) to get detailed information about the Meetup groups.
 
