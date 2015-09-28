@@ -17,6 +17,22 @@ This is an iOS demo that helps find when and where the upcoming technology meetu
 3. More detailed information about the event is provided to the users when an event is selected.
 4. Users are able to add the event into their iCloud Calendar from the Event Information View `EventDetailsViewController.swift`.
 
+## Peek and Pop on 3D Touch-capable devices 
+### (iPhone 6S and iPhone 6S Plus)
+Meetup-finder provides Peek and Pop functionality to preview additional content when a user presses (3D Touch) on any item of upcoming meetups list. See `NearMeViewController.swift` and `PreviewViewController.swift`
+
+``` bash
+func registerFor3DTouch(){
+  //Register view for 3D Touch (if available)
+  if traitCollection.forceTouchCapability == .Available {
+    registerForPreviewingWithDelegate(self, sourceView: view)
+  } else { 
+    print("3D Touch is not available on this device.") 
+  }
+}
+end
+```
+
 ## Getting Started
 1. Clone/Download the repository.
 2. Open the project in Xcode `Meetup Finder.xcworkspace`.
