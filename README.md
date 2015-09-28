@@ -1,23 +1,23 @@
-#Meetup-finder Demo
+#Meetup-finder
 
-iOS app that finds the upcoming public technology meetups near the user's current location using the [meetup.com API] (https://secure.meetup.com/meetup_api).
+iOS demo app that finds the upcoming public technology meetups near the user's current location using the [meetup.com API] (https://secure.meetup.com/meetup_api).
 
 ## Specs
 - Swift 2.0
 - iOS 9 compatible
 - Created using Xcode 7
 
-## Getting Started
-1. Clone this repository.
-2. Open the project in Xcode.
-3. Open `config.plist` and set your Meetup.com API Key in `wsAPIKey`. This key is required to make every request to the Meetup API.
-4. Build and run the app.
-
 ## Features
 1. Meetup-finder allows users to see the list of upcoming technology meetups around their area by just launching the app.
 2. Users can locate and browse the venue locations using the Map View.
 3. More detailed information about the event is provided to the users when an event is selected.
 4. Users are able to add the event into their iCloud Calendar from the Event Information View `EventDetailsViewController.swift`.
+
+## Getting Started
+1. Clone/Download the repository.
+2. Open the project in Xcode.
+3. Open `config.plist` and set your Meetup.com API Key in `wsAPIKey`. This key is required to make every request to the Meetup API.
+4. Build and run the app.
 
 ## API methods implemented
 1. [/topics] (http://www.meetup.com/meetup_api/docs/topics/) to get all the "Tech" related topics. The urlkeys in the response are being sent as a parameter when requesting the meetups.
