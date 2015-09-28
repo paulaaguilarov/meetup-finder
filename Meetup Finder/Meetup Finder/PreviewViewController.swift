@@ -12,7 +12,7 @@ class PreviewViewController: BaseEventDetailsViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.descriptionTextView.textContainer.lineBreakMode = NSLineBreakMode.ByTruncatingTail
         // Do any additional setup after loading the view.
         self.loadEventInfo()
     }
