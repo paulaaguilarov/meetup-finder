@@ -10,14 +10,14 @@ iOS app that finds the upcoming public technology meetups near the user's curren
 ## Getting Started
 1. Clone this repository.
 2. Open the project in Xcode.
-3. Open config.plist and set your Meetup.com API Key in 'wsAPIKey'. This key is required to make every request to the Meetup API.
+3. Open `config.plist` and set your Meetup.com API Key in `wsAPIKey`. This key is required to make every request to the Meetup API.
 4. Build and run the app.
 
 ## Features
 1. Meetup-finder allows users to see the list of upcoming technology meetups around their area by just launching the app.
-2. Users can locate and browse the events locations using the Map View.
+2. Users can locate and browse the venue locations using the Map View.
 3. More detailed information about the event is provided to the users when an event is selected.
-4. Users are able to add the event into their iCloud Calendar from the Detail Information View.
+4. Users are able to add the event into their iCloud Calendar from the Event Information View `EventDetailsViewController.swift`.
 
 ## API methods implemented
 1. [/topics] (http://www.meetup.com/meetup_api/docs/topics/) to get all the "Tech" related topics. The urlkeys in the response are being sent as a parameter when requesting the meetups.
@@ -42,6 +42,6 @@ pod 'SDWebImage', '~> 3.7'
 
 end
 ```
-Since this is a Swift project and these frameworks were created in Objective-C, I added a bridging header to expose the headers to Swift: 'Meetup Finder-Bridging-Header.h'.
+Since this is a Swift project and these frameworks were created in Objective-C, I added a bridging header to expose the headers to Swift: `Meetup Finder-Bridging-Header.h`.
 
-*To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to be blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, you can find the implementation to request the photos in DataManager.swif
+*To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to get blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, I keep the implementation to request the photos of a group in `DataManager.swift`.
