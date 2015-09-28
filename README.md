@@ -46,7 +46,7 @@ pod 'SDWebImage', '~> 3.7'
 
 end
 ```
-Since this is a Swift project and these frameworks were created in Objective-C, I added a bridging header to expose the headers to Swift: `Meetup Finder-Bridging-Header.h`.
+Since this is a Swift project and these frameworks were created in Objective-C, a bridging header was added to expose the headers to Swift: `Meetup Finder-Bridging-Header.h`.
 
 ##Notes/Updates
 
