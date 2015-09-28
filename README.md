@@ -19,7 +19,7 @@ This is an iOS demo that helps find when and where the upcoming technology meetu
 
 ## Peek and Pop on 3D Touch-capable devices 
 ### (iPhone 6S and iPhone 6S Plus)
-Meetup-finder provides Peek and Pop functionality to preview additional content when a user presses (3D Touch) on any item of upcoming meetups list. See `NearMeViewController.swift` and `PreviewViewController.swift`
+Meetup-finder provides Peek and Pop functionality to preview additional content when a user presses (3D Touch) on any item of the list of meetups. See `NearMeViewController.swift` and `PreviewViewController.swift`
 
 ``` bash
 func registerFor3DTouch(){
