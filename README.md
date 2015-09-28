@@ -16,7 +16,7 @@ iOS app that finds the upcoming technology meetups near the user's current locat
 ## Features
 1. Meetup-finder allows users to see a list of upcoming technology meetups around their area by launching the app.
 2. Users can locate and browse the events locations using the Map View.
-3. More detailed information about the event is provided to the users an event is selected.
+3. More detailed information about the event is provided to the users when an event is selected.
 4. Users are able to add the event into their iCloud Calendar from the Detail Information View.
 
 ## API methods implemented
