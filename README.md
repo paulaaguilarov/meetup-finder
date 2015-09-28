@@ -10,7 +10,7 @@ iOS app that finds the upcoming technology meetups near the user's current locat
 ## Getting Started
 1. Clone this repository.
 2. Open the project in XCode.
-3. Open config.plist and set your Meetup.com API Key value in 'wsAPIKey'. This key is required to make every request to the Meetup API.
+3. Open config.plist and set your Meetup.com API Key in 'wsAPIKey'. This key is required to make every request to the Meetup API.
 4. Build and run the app.
 
 ## Features
