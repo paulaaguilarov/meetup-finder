@@ -28,7 +28,7 @@ iOS app that finds the upcoming public technology meetups near the user's curren
 Third-party open source framewors are used within this project:
 
 1. [RestKit](https://github.com/RestKit/RestKit) - For consuming and modeling RESTful web resources
-2. [SDWebImage](https://github.com/rs/SDWebImage) - Asynchronous image downloader with cache support*
+2. [SDWebImage](https://github.com/rs/SDWebImage) - Asynchronous image downloader with cache support***
 
 Installed via the [CocoaPods](http://cocoapods.org/) dependency management tool, as it makes managing dependencies in the code easier.
 
@@ -44,4 +44,6 @@ end
 ```
 Since this is a Swift project and these frameworks were created in Objective-C, I added a bridging header to expose the headers to Swift: `Meetup Finder-Bridging-Header.h`.
 
-*To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to get blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, I keep the implementation to request the photos of a group in `DataManager.swift`.
+##Notes/Updates
+
+***To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to get blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, I keep the implementation to request the photos of a group in `DataManager.swift`.
