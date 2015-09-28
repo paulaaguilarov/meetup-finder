@@ -5,11 +5,11 @@ iOS app that finds the upcoming public technology meetups near the user's curren
 ## Specs
 - Swift 2.0
 - iOS 9 compatible
-- Created using XCode 7
+- Created using Xcode 7
 
 ## Getting Started
 1. Clone this repository.
-2. Open the project in XCode.
+2. Open the project in Xcode.
 3. Open config.plist and set your Meetup.com API Key in 'wsAPIKey'. This key is required to make every request to the Meetup API.
 4. Build and run the app.
 
