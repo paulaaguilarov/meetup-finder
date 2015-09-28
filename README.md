@@ -1,6 +1,6 @@
 #Meetup-finder Demo
 
-iOS app that finds the upcoming technology meetups near the user's current location using the [meetup.com API] (https://secure.meetup.com/meetup_api).
+iOS app that finds the upcoming public technology meetups near the user's current location using the [meetup.com API] (https://secure.meetup.com/meetup_api).
 
 ## Specs
 - Swift 2.0
