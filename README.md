@@ -44,4 +44,4 @@ end
 ```
 Since this is a Swift project and these frameworks were created in Objective-C, I added a bridging header to expose the headers to Swift: 'Meetup Finder-Bridging-Header.h'.
 
-*To display/download Meetup.com's group photos - UPDATE: This feature removed from the app to avoid credentials to be blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, you can find the implementation to request the photos in DataManager.swif
+*To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to be blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, you can find the implementation to request the photos in DataManager.swif
