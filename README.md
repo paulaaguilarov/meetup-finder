@@ -50,4 +50,4 @@ Since this is a Swift project and these frameworks were created in Objective-C, 
 
 ##Notes/Updates
 
-***To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to get blocked. Meetup.com allows only a maximum number of requests that can be made in a window of time. Clients that issue too many requests in a short period of time will be blocked for an hour. However, I kept the implementation to request the photos of a group in `DataManager.swift`.
+***To display/download Meetup.com's group photos - UPDATE: This feature was removed from the app to avoid credentials to get blocked. Meetup.com allows only a maximum number of requests that can be made in time frame. Clients that issue too many requests in a short period of time will be blocked for an hour. However, the implementation to request the photos of a group was kept in the class `DataManager.swift`.
