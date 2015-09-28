@@ -4,7 +4,7 @@ iOS demo app that finds the upcoming public technology meetups near the user's c
 
 <img src="/screenshots/screenshot-2.png" width="248px" height="442px" />&nbsp;
 <img src="/screenshots/screenshot-3.png" width="248px" height="442px" />&nbsp;
-<img src="/screenshots/screenshot-4.png" width="248px" height="442px" />&nbsp;
+<img src="/screenshots/screenshot-4.png" width="248px" height="442px" />
 
 ## Specs
 - Swift 2.0
