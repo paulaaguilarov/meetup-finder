@@ -36,7 +36,7 @@ end
 ## Getting Started
 1. Clone/Download the repository.
 2. Open the project in Xcode `Meetup Finder.xcworkspace`.
-3. Open `config.plist` and set your Meetup.com API Key in `wsAPIKey`. This key is required to make every request to the Meetup API. You can get it [here].(https://secure.meetup.com/meetup_api/key/)
+3. Open `config.plist` and set your Meetup.com API Key in `wsAPIKey`. This key is required to make every request to the Meetup API. You can get it [here](https://secure.meetup.com/meetup_api/key/).
 4. Build and run the app.
 
 ## API methods implemented
