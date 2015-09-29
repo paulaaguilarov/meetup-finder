@@ -67,7 +67,7 @@ class NearMeViewController: BaseViewController, UITableViewDelegate, UITableView
     func registerFor3DTouch(){
         // register view for 3D Touch (if available)
         if traitCollection.forceTouchCapability == .Available {
-            registerForPreviewingWithDelegate(self, sourceView: view)
+            registerForPreviewingWithDelegate(self, sourceView: self.tableView)
         } else { print("3D Touch is not available on this device.") }
     }
     

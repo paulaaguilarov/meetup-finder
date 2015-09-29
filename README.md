@@ -25,7 +25,7 @@ Meetup-finder provides Peek and Pop functionality to preview additional content 
 func registerFor3DTouch(){
   //Register view for 3D Touch (if available)
   if traitCollection.forceTouchCapability == .Available {
-    registerForPreviewingWithDelegate(self, sourceView: view)
+    registerForPreviewingWithDelegate(self, sourceView: self.tableView)
   } else { 
     print("3D Touch is not available on this device.") 
   }
