@@ -53,19 +53,27 @@ class NearMeViewController: BaseViewController, UITableViewDelegate, UITableView
         self.tableView.reloadData()
     }
     
+    /**
+    * Refreshs the location and results from the tableview
+    */
     func refreshFeedWithControl(sender: UIRefreshControl) {
         self.isRefreshingData = true
         self.updateLocation()
     }
     
+    /**
+    * Stops refreshing control
+    */
     func stopFeedRefreshControl(){
         self.isRefreshingData = false;
         self.feedRefreshControl.endRefreshing()
         self.tableView.setContentOffset(CGPointMake(0, 0), animated: true)
     }
     
+    /**
+    * Registers the tableview for 3D Touch (if available)
+    */
     func registerFor3DTouch(){
-        // register view for 3D Touch (if available)
         if traitCollection.forceTouchCapability == .Available {
             registerForPreviewingWithDelegate(self, sourceView: self.tableView)
         } else { print("3D Touch is not available on this device.") }

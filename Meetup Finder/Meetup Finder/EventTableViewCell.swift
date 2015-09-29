@@ -10,9 +10,9 @@ import UIKit
 
 class EventTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
-    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!              //Label to display the title of the event
+    @IBOutlet weak var descriptionLabel: UILabel!       //Label to display the description / Name of the group that is hosting
+    @IBOutlet weak var dateLabel: UILabel!              //Label to display the date of the event
     
     override func awakeFromNib() {
         super.awakeFromNib()
